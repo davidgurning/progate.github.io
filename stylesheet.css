@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <meta name="viewport"
+    content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="responsive.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-rigth">
+                <div class="logo">
+                    <h3>NINJA KEN</h3>
+                </div>
+                <div class="menu">
+                        <a href="#">Proyek Contoh</a>
+                        <a href="#">Tentang Saya</a>
+                        <a href="#">Hubungi Saya</a>
+                </div>
+                <div class="menu-icon">
+                    <span class="fa fa-bars"></span>
+                </div>
+                    
+            </div>
+        </div>
+    </header>
+
+    <div class="top-wrapper">
+        <div class="container">
+            <h1>NINJA KEN <span class="titik">.</span></h1>
+            <p class="bawah">MY PORTOFOLIO</p>
+
+            <div class="iconprogate">
+                    <img src="NinjaKen.png" alt="foto saya">
+            </div>
+        </div>
+    </div>
+
+    <div class="lesson-wrapper">
+        <div class="container">
+            <div class="heading">
+                <h2>Tentang Saya</h2>
+            </div>
+            <div class="teks">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis accusamus voluptates corrupti consectetur rem perspiciatis nisi nesciunt. Eveniet accusamus recusandae, rem culpa tempore officia doloremque possimus accusantium veritatis mollitia nobis.
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro aliquam error assumenda ipsa sed sit harum dignissimos ea hic, inventore cum voluptate nisi placeat praesentium debitis. Impedit et doloribus deleniti.
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum recusandae molestias mollitia eum nobis possimus magnam, officia alias magni quod porro eveniet, quos soluta rem in praesentium ut rerum. Doloremque!
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="proyekcontoh">
+        <div class="container"> 
+            <div class="heading">
+                <h2>Proyek Contoh</h2>
+            </div>
+            <div class="icons">
+                <div class="icon">
+                    <img src="satu.png" alt="oke1">
+                    <p>Image 1</p>
+                </div>
+                <div class="icon">
+                    <img src="dua.png" alt="oke2">
+                    <p>Image 2</p>
+                </div>    
+                <div class="icon">
+                    <img src="tiga.png" alt="oke3">
+                    <p>Image 3</p>
+                </div>    
+            </div>
+        </div>
+    </div>
+
+    <div class="contact-form">
+        <div class="container">
+                <h2 class="heading">Hubungi Saya</h2>
+
+            <div class="contact">
+                <div class="email">
+                    <input type="email" value="Email (Diperlukan)">
+                </div>
+                
+                <div class="massage">
+                    <textarea name="massage" >Massage (Diperlukan)</textarea>
+                </div>
+
+                <div clsss=" contact-submit">
+                    <input class="contact-submit" type="submit" value="kirim">
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <footer>
+        <div class="container">
+            <div class="left1">
+                <h3>NINJA KEN</h3>
+            </div>
+
+            <div class="left2">
+                <ul>
+                    <li><a href="#">Tentang Saya</a></li>
+                    <li class="tengah"><a href="#">Proyek Contoh</a></li>
+                    <li><a href="#">Hubungi Saya</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
