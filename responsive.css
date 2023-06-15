@@ -76,7 +76,7 @@
     }
 
     .left1{
-        /* border: 1px solid red; */
+     
         padding: 0px;
         margin-top: 0px;
     }
@@ -85,19 +85,19 @@
         float:none;
         font-size: 20px;
         margin:0px auto;
-        /* border: 1px solid red; */
+ 
     }
     
     .left2 li{
-        /* border: 1px solid red; */
+
         padding-right: 0px;
-        /* text-align: center; */
+
         text-align: center;
         flex: auto;
     }
 
     ul{
-        /* border: 1px solid rgb(94, 32, 181); */
+      
         display: flex;
         padding-right: 0px;
         padding-left: 0px;
@@ -118,10 +118,6 @@
         letter-spacing: 0px;
         
     }
-/*     
-    .left2 .tengah{
-        padding: 0px 10px;
-    } */
 }
 
 /* -------------------------- */
