@@ -60,27 +60,25 @@ header{
     background-color: rgba(47, 52, 52, 0.993);
 }
 
-.header-rigth {
-    /* border: 1px solid purple; */
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-}
 
-.header-rigth .logo {
+.logo {
     float: left;
     margin-right: 30px;
-    align-items: center;
+    /* align-items: center; */
 }
 
-.header-rigth .logo h3{
+ .logo h3{
     color: rgb(248, 244, 244);
     padding:-5px 25px 0px 25px;
     letter-spacing:5px;
     font-weight: bold;
 }
 
-.header-rigth .menu a{
+.kanan{
+    float: right;
+}
+
+header .menu a{
     display: inline-block;
     font-size:12px;
 }
@@ -206,7 +204,6 @@ footer{
 .left2 li{
     list-style: none;
     padding:4px;
-
 }
 
 .left1 h3{
@@ -217,7 +214,7 @@ footer{
 
 .left2 a{
     color: white;
-    letter-spacing: 3px;
+    letter-spacing:3px;
     font-size: 18px;
 }
 
@@ -227,11 +224,9 @@ footer{
     /* list-style: none; */
 }
 
-/* .menu-icon span{
-    display: none;
-} */
+/* -----------icon */
 
-.menu-icon span {
+.menu-icon .garistiga {
     display: none;
     color: white;
     float: right;
