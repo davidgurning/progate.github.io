@@ -1,39 +1,22 @@
 @media (max-width:670px) {
-/* HEADER------------------- */
-    /* header{
-    height: 60px;
-    width: 100%;
-    background-color: rgba(47, 52, 52, 0.993);
-    } */
-    /* .header-rigth .menu a{
-        font-size:8px;
-        padding: 0px;
-    } */
-/* 
-    .header-rigth .logo h3 {
-        font-size: 18px;
-        padding:20px 0px 0px 0px;
-        margin: 0;
-    } */
     .menu{
         display: none;
     }
 
-    .menu-icon span{
-        margin-left: 110px;
+    .menu-icon .garistiga{
         display: block;
     } 
 
-    .oke .menu-icon{
-        font-size: 20px;
-    }
-
     .menu-icon{
-        /* border: 1px solid white; */
+        /* border: 1px solid black; */
+        float: right;
         color: white;
     }
 
-    
+    .header-rigth .kanan{
+        /* border: 1px solid red; */
+        float: right;
+    }
 
 
 
@@ -84,44 +67,62 @@
     .icons .icon{
         margin:0 auto;
     }
+
+    footer{
+        text-align:center;
+        height:100px;
+        padding:20px 0px 0px 0px;
+        /* border: 1px solid red; */
+    }
+
+    .left1{
+        /* border: 1px solid red; */
+        padding: 0px;
+        margin-top: 0px;
+    }
+
+    .left1 h3{
+        float:none;
+        font-size: 20px;
+        margin:0px auto;
+        /* border: 1px solid red; */
+    }
+    
+    .left2 li{
+        /* border: 1px solid red; */
+        padding-right: 0px;
+        /* text-align: center; */
+        text-align: center;
+        flex: auto;
+    }
+
+    ul{
+        /* border: 1px solid rgb(94, 32, 181); */
+        display: flex;
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+
+    .left2{
+        float: none;
+    }
+    
+    .left2 a{
+        background-color: aliceblue;
+        border-radius: 6px;
+        padding: 2px;
+        color: black;
+        font-weight: bold;
+        opacity: 0.7;
+        font-size: 12px;
+        letter-spacing: 0px;
+        
+    }
+/*     
+    .left2 .tengah{
+        padding: 0px 10px;
+    } */
 }
 
 /* -------------------------- */
 
-footer{
-    text-align:center;
-    height:100px;
-    padding:20px 0px 0px 0px;
-}
-.left1 h3{
-    float:none;
-    font-size: 20px;
-}
-
-.left2 li{
-    padding:0px;
-}
-
-ul{
-    display: flex;
-}
-
-.left2{
-    float: none;
-    /* display: flex; */
-}
-
-.left2 a{
-    background-color: aliceblue;
-    border-radius: 6px;
-    padding: 2px;
-    color: black;
-    font-weight: bold;
-    opacity: 0.7;
-    font-size: 12px;
-    letter-spacing: 0px;
-}
-
-.left2 .tengah{
-    padding: 0px 10px;
-}
